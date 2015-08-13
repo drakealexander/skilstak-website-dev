@@ -31,31 +31,6 @@
   height: 100%;
 }
 
-.type-text{
-  color: black; 
-  font-family: "Courier";
-  font-size: 20px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 30em;
-  animation: type 4s steps(60, end); 
-}
-
-.type-text:nth-child(2){
-  animation: type2 8s steps(60, end);
-}
-
-@keyframes type{ 
-  from { width: 0; } 
-} 
-
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; } 
-} 
-
 /* Blinking Cursor from http://codepen.io */
 
 .blinking-cursor {
@@ -668,7 +643,7 @@ textarea.form-control {
 	font-weight: 700;
 	font-size: 22px;
 	color: #000;
-    font-family: Lobster;
+    font-family: monospace;
 }
 
 .navbar-custom .dropdown-menu {
@@ -1018,7 +993,7 @@ figure.effect-bubba:hover p {
 
 .cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
 .no-js .cbp-qtrotator .cbp-qtcontent {
-	position: relative; 
+	position: relative;
 	z-index: 100;
 	pointer-events: auto;
 	opacity: 1;
@@ -1071,7 +1046,7 @@ figure.effect-bubba:hover p {
 }
 
 /* Example for media query */
-@media screen and (max-width: 30.6em) { 
+@media screen and (max-width: 30.6em) {
 
 	.cbp-qtrotator {
 		font-size: 70%;
@@ -1082,4 +1057,3 @@ figure.effect-bubba:hover p {
 	}
 
 }
-

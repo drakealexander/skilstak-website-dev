@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
+@font-face {
+    font-family: menlo;
+    src: url(https://github.com/hbin/top-programming-fonts/raw/master/Menlo-Regular.ttf);
+}
 
 /*!
  * Clean v2.0.0
@@ -643,7 +647,7 @@ textarea.form-control {
 	font-weight: 700;
 	font-size: 22px;
 	color: #000;
-    font-family: monospace;
+    font-family: ;
 }
 
 .navbar-custom .dropdown-menu {

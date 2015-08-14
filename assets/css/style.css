@@ -11,6 +11,13 @@
  * Copyright 2015 Script Eden
  * Licensed under MIT
 */
+
+.credits {
+  font-size: 75%;
+  font-family: menlo;
+  color: #FFFFFF;
+}
+
 .intrinsic-container {
   position: relative;
   height: 0;
